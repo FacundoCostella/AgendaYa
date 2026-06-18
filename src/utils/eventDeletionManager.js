@@ -40,7 +40,7 @@ export function eliminarEventoLogicamente(evento, confirmado) {
     mensaje: 'Tipo de evento eliminado correctamente.',
     evento: {
       ...evento,
-      activo: false,
+      activo: true,
       eliminado: true
     }
   };
